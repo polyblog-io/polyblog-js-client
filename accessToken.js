@@ -1,4 +1,4 @@
-/* Copyright 2013 - 2021 Waiterio LLC */
+/* Copyright 2021 Polyblog */
 import { atob } from 'b64-lite'
 
 let accessToken = null

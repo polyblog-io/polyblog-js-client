@@ -7,6 +7,9 @@
     "blog",
     "cms"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "main": "index.js",
   "scripts": {},
   "repository": {

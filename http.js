@@ -1,4 +1,4 @@
-/* Copyright 2013 - 2021 Waiterio LLC */
+/* Copyright 2021 Polyblog */
 import { btoa } from 'b64-lite'
 import fetch from 'isomorphic-fetch'
 import failure from './failure'

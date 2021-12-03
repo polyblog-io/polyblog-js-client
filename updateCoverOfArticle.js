@@ -1,4 +1,4 @@
-/* Copyright 2013 - 2021 Waiterio LLC */
+/* Copyright 2021 Polyblog */
 import put from './put'
 
 export default function updateCoverOfArticle(articleId, file) {

@@ -1,4 +1,4 @@
-/* Copyright 2013 - 2021 Waiterio LLC */
+/* Copyright 2021 Polyblog */
 import http from './http'
 
 export default function get(config, customFailure) {

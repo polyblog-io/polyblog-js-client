@@ -1,4 +1,4 @@
-/* Copyright 2013 - 2021 Waiterio LLC */
+/* Copyright 2021 Polyblog */
 import get from './get'
 
 export default function getFreelancerMilestones(projectId) {
