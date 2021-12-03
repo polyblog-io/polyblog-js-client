@@ -7,14 +7,11 @@
     "blog",
     "cms"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/polyblog-io/polyblog-js-client.git"
+    "url": "https://github.com/polyblog-io/polyblog-js-client.git"
   },
   "author": "Waiterio LLC <info@waiterio.com>",
   "license": "MIT",
