@@ -1,2 +1,3 @@
 # polyblog-js-client
-JS client for polyblog.io
+
+Javascript client for [polyblog.io](https://www.polyblog.io)

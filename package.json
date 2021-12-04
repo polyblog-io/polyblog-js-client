@@ -1,31 +1,23 @@
 {
   "name": "@polyblog/polyblog-js-client",
-  "version": "0.0.0",
-  "description": "javascript client for the polyblog.io",
-  "keywords": [
-    "polyblog",
-    "blog",
-    "cms"
-  ],
+  "version": "0.0.1",
+  "description": "javascript client for polyblog.io",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": ""
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/polyblog-io/polyblog-js-client.git"
+    "url": "git+https://github.com/polyblog-io/polyblog-js-client.git"
   },
-  "author": "Waiterio LLC <info@waiterio.com>",
+  "keywords": [
+    "polyblog",
+    "blog"
+  ],
+  "author": "Polyblog",
   "license": "MIT",
-  "private": false,
   "bugs": {
     "url": "https://github.com/polyblog-io/polyblog-js-client/issues"
   },
-  "homepage": "https://www.polyblog.io",
-  "dependencies": {
-    "b64-lite": "1.4.0",
-    "isomorphic-fetch": "2.2.1",
-    "jsonwebtoken": "8.5.1"
-  },
-  "devDependencies": {
-    "nock": "12.0.3"
-  }
+  "homepage": "https://github.com/polyblog-io/polyblog-js-client#readme"
 }
