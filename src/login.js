@@ -1,4 +1,3 @@
-/* Copyright 2013 - 2021 Waiterio LLC */
 import { btoa } from 'b64-lite'
 import post from './post'
 

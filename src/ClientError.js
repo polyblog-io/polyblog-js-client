@@ -1,4 +1,3 @@
-/* Copyright 2013 - 2021 Waiterio LLC */
 function ClientError(source) {
   if (source && typeof source === 'object') {
     Object.keys(source).forEach(key => {

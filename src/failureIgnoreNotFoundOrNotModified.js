@@ -1,4 +1,3 @@
-/* Copyright 2013 - 2021 Waiterio LLC */
 import failure from './failure'
 
 export default function failureIgnoreNotFoundOrNotModified(error) {

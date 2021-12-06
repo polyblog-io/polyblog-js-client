@@ -1,8 +1,7 @@
-/* Copyright 2013 - 2021 Waiterio LLC */
 import { btoa } from 'b64-lite'
 import fetch from 'isomorphic-fetch'
-import getPolyblogUrl from '@waiterio/env/getPolyblogUrl'
 import failure from './failure'
+import getPolyblogUrl from './getPolyblogUrl'
 import httpWithoutHeaders from './httpWithoutHeaders'
 import refreshAccessToken from './refreshAccessToken'
 

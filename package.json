@@ -1,12 +1,15 @@
 {
   "name": "@polyblog/polyblog-js-client",
-  "version": "0.0.3",
+  "version": "0.0.9",
   "description": "javascript client for polyblog.io",
-  "main": "dist/index.js",
+  "exports": {
+    "./*": "./dist/*.js"
+  },
   "files": [
     "dist"
   ],
   "scripts": {
+    "build": "babel src -d dist",
     "test": ""
   },
   "repository": {
@@ -24,11 +27,16 @@
   },
   "homepage": "https://github.com/polyblog-io/polyblog-js-client#readme",
   "dependencies": {
+    "@babel/runtime": "^7.16.3",
     "b64-lite": "1.4.0",
     "isomorphic-fetch": "2.2.1",
     "jsonwebtoken": "8.5.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.16.4",
     "nock": "12.0.3"
   }
 }

@@ -1,4 +1,3 @@
-/* Copyright 2013 - 2021 Waiterio LLC */
 import post from './post'
 
 export default function addFreelancerMilestone({

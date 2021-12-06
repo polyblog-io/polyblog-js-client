@@ -1,7 +1,5 @@
-/* Copyright 2013 - 2021 Waiterio LLC */
 import { btoa } from 'b64-lite'
 import fetch from 'isomorphic-fetch'
-import getPolyblogUrl from '@waiterio/env/getPolyblogUrl'
 import {
   getAccessToken,
   isAccessTokenExpired,
@@ -12,6 +10,7 @@ import {
   isRefreshTokenExpired,
   setRefreshToken,
 } from './refreshToken'
+import getPolyblogUrl from './getPolyblogUrl'
 
 export default async function refreshAccessToken() {
   let accessToken = getAccessToken()

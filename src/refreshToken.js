@@ -1,4 +1,3 @@
-/* Copyright 2013 - 2021 Waiterio LLC */
 import { atob } from 'b64-lite'
 
 let refreshToken = null

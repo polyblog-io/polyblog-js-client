@@ -1,4 +1,3 @@
-/* Copyright 2013 - 2021 Waiterio LLC */
 import get from './get'
 
 export default function getTranslators(parameters) {

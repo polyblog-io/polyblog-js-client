@@ -1,4 +1,3 @@
-/* Copyright 2013 - 2021 Waiterio LLC */
 import fetch from 'isomorphic-fetch'
 import failure from './failure'
 
