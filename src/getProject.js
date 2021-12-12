@@ -1,7 +1,7 @@
 import get from './get'
 
-export default function getProjectFromCDN(projectIdOrName, organizationId) {
-  let url = `projects/${projectIdOrName}/cdn`
+export default function getProject(projectIdOrName, organizationId) {
+  let url = `projects/${projectIdOrName}`
 
   if (organizationId) {
     url += `?organizationId=${organizationId}`
