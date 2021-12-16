@@ -1,15 +1,15 @@
 {
   "name": "@polyblog/polyblog-js-client",
-  "version": "0.0.10",
+  "version": "0.0.15",
   "description": "javascript client for polyblog.io",
-  "exports": {
-    "./*": "./dist/*.js"
-  },
+  "main": "dist/index.js",
+  "sideEffects": false,
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "babel src -d dist",
+    "build": "babel src --out-dir dist",
+    "start": "babel src --watch --out-dir dist",
     "test": ""
   },
   "repository": {
