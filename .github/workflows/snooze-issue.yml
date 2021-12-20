@@ -1,0 +1,18 @@
+name: snooze issue
+
+on:
+  issue_comment:
+    types:
+      - created
+
+jobs:
+  snooze_issue:
+    runs-on: ubuntu-latest
+    name: snooze issue
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: snooze issue
+        uses: multilocale/snooze-issue-action/snooze@main
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
