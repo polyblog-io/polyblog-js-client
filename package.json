@@ -1,6 +1,6 @@
 {
   "name": "@polyblog/polyblog-js-client",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "javascript client for polyblog.io",
   "main": "dist/index.js",
   "sideEffects": false,
