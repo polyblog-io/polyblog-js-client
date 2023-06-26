@@ -1,8 +1,7 @@
 {
   "name": "@polyblog/polyblog-js-client",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "javascript client for polyblog.io",
-  "main": "index.js",
   "type": "commonjs",
   "sideEffects": false,
   "scripts": {
