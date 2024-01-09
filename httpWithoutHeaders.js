@@ -1,4 +1,3 @@
-const fetch = require('isomorphic-fetch')
 const failure = require('./failure.js')
 
 module.exports = function httpWithoutHeaders(url, customFailure) {

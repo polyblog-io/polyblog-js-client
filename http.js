@@ -1,5 +1,3 @@
-const { btoa } = require('b64-lite')
-const fetch = require('isomorphic-fetch')
 const failure = require('./failure.js')
 const getPolyblogUrl = require('./getPolyblogUrl.js')
 const httpWithoutHeaders = require('./httpWithoutHeaders.js')

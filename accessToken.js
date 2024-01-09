@@ -1,5 +1,3 @@
-const { atob } = require('b64-lite')
-
 let accessToken = null
 let callback = null
 

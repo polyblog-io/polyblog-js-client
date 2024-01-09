@@ -42,7 +42,7 @@ function ClientError(source) {
 
 // TODO commented out because it crashes gatsby source plugin
 // ClientError.prototype = Error.prototype
-ClientError.prototype.toString = function () {
+ClientError.prototype.toString = function toString() {
   return this.message
 }
 

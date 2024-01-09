@@ -1,6 +1,4 @@
-const { btoa } = require('b64-lite')
-const fetch = require('isomorphic-fetch')
-const {
+*const {
   getAccessToken,
   isAccessTokenExpired,
   setAccessToken,

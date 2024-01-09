@@ -1,4 +1,3 @@
-const { btoa } = require('b64-lite')
 const post = require('./post.js')
 
 module.exports = function login(email, password) {
